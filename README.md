@@ -1,6 +1,6 @@
 # npmtest-type-of-is
 
-#### basic test coverage for  type-of-is (v3.5.1)  [![npm package](https://img.shields.io/npm/v/npmtest-type-of-is.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-type-of-is) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-type-of-is.svg)](https://travis-ci.org/npmtest/node-npmtest-type-of-is)
+#### basic test coverage for  [type-of-is (v3.5.1)](https://github.com/stephenhandley/type-of-is#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-type-of-is.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-type-of-is) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-type-of-is.svg)](https://travis-ci.org/npmtest/node-npmtest-type-of-is)
 
 #### Determine and test types using constructor or {}.toString
 
@@ -35,21 +35,31 @@
 ```json
 
 {
-    "name": "type-of-is",
-    "version": "3.5.1",
-    "description": "Determine and test types using constructor or {}.toString",
-    "license": "MIT",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/stephenhandley/type-of-is"
+    "author": {
+        "name": "Stephen Handley",
+        "url": "http://person.sh"
     },
     "bugs": {
         "url": "http://github.com/stephenhandley/type-of-is/issues"
     },
-    "scripts": {
-        "test": "./node_modules/.bin/mocha --no-timeouts --ui exports test/test.js"
+    "dependencies": {},
+    "description": "Determine and test types using constructor or {}.toString",
+    "devDependencies": {
+        "mocha": "^3.2.0"
     },
+    "directories": {
+        "lib": ".",
+        "test": "test"
+    },
+    "dist": {
+        "shasum": "eec2fc89b828dbf9900eb6416eee30f4fe0fcd31",
+        "tarball": "https://registry.npmjs.org/type-of-is/-/type-of-is-3.5.1.tgz"
+    },
+    "engines": {
+        "node": ">=0.10.5"
+    },
+    "gitHead": "7138a7e79f5af7c286bf8123f60843a91aaebf38",
+    "homepage": "https://github.com/stephenhandley/type-of-is#readme",
     "keywords": [
         "type",
         "types",
@@ -58,20 +68,24 @@
         "type.of",
         "type.is"
     ],
-    "directories": {
-        "lib": ".",
-        "test": "test"
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "stephenhandley"
+        }
+    ],
+    "name": "type-of-is",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stephenhandley/type-of-is.git"
     },
-    "engines": {
-        "node": ">=0.10.5"
+    "scripts": {
+        "test": "mocha --no-timeouts --ui exports test/test.js"
     },
-    "devDependencies": {
-        "mocha": "^3.2.0"
-    },
-    "author": {
-        "name": "Stephen Handley",
-        "url": "http://person.sh"
-    }
+    "version": "3.5.1",
+    "bin": {}
 }
 ```
 
